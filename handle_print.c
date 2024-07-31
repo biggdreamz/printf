@@ -21,7 +21,7 @@ int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
 		{'u', print_unsigned}, {'o', print_octal}, {'x', print_hexadecimal},
 		{'X', print_hexa_upper}, {'p', print_pointer}, {'S', print_non_printable},
 <<<<<<< HEAD
-		{'r', print_reverse}, {'R', print_rot13string}, {'\0', NULL}
+		{'r', print_reverse}, {'R', print_rot13string}, {NULL, NULL}
 	       	{'r', print_reverse}, {'R', print_rot13string}, {'\0', NULL},
 		{NULL, NULL}
 >>>>>>> ea76545e2fc6feffc6cecd338f84c884d9f6a7f2
